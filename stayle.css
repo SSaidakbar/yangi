@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 90%;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.contact{
+    width: 100%;
+    height: 80%;
+}
+.contact h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.contact__title{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 3rem;
+}
+.contact__iteam{
+    margin-top: 6rem;
+}
+.contact__img{
+    margin-top: 4rem;
+}
+
+.contact__iteam h3{
+    color: #FEE88A;
+    font-family: serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact__iteam p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
